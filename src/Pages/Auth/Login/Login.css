@@ -1,0 +1,26 @@
+.bg-img{
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+}
+
+
+.login_img img {
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}
+
+.login_img {
+    margin: auto;
+    text-align: center;
+}
+
+.form-floating>.form-control, .form-floating>.form-select {
+    height: calc(2.5rem + 10px) !important;
+}
+.form-control:focus{
+    box-shadow: none !important;
+}

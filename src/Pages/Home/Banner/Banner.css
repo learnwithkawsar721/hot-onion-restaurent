@@ -1,0 +1,41 @@
+.bg-img{
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+}
+
+.banner {
+    padding: 150px 0;
+}
+.banner_title{
+    font-weight: 700;
+    color: #333;
+}
+.banner_btn{
+    font-size: 16px;
+    background-color: #F1074D !important;
+    border-radius: 20px !important;
+    border: none !important;
+}
+.banner input {
+    padding: 5px;
+    margin-right: 5px;
+    border-radius: 20px;
+    border: 0;
+}
+
+/* Small devices (landscape phones, 576px and up)*/
+ @media (max-width: 576px)  { 
+     .banner_title{
+         font-size: 18px;
+     }
+ }
+ 
+ /* Medium devices (tablets, 768px and up) */
+/* @media (min-width: 577px) and (max-width:768px) {} */
+ 
+ /* Large devices (desktops, 992px and up) */
+/* @media (min-width: 769px) and (max-width:992px) { } */
+ 

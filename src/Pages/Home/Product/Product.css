@@ -1,0 +1,16 @@
+.porduct_card {
+    border-radius: 30px !important;
+   transition: 0.5s linear;
+}
+.porduct_card:hover{
+    -webkit-box-shadow: 2px 4px 21px 2px #000000; 
+    box-shadow: 2px 4px 21px 2px #000000;
+}
+.porduct_card button {
+    background-color: #F1074D !important;
+}
+.product_img {
+    width: 75%;
+    margin: auto;
+    padding: 10px;
+}

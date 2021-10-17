@@ -1,0 +1,71 @@
+.navbar{
+    background-color: #FFFFFF ;
+}
+.navbar button{
+    border: 0 !important;
+    outline: none !important;
+}
+.register{
+    background-color: #F1074D !important;
+    color: #fff !important;
+    border-radius: 20px !important;
+    padding: 8px 20px !important;
+    border: 0 !important;
+    outline: none !important;
+    text-align: center;
+}
+.register:focus,
+.navbar button:focus{
+    outline: none !important;
+    box-shadow: none !important;
+}
+.navbar-nav-scroll{
+    padding-bottom: 10px !important; 
+}
+.login{
+    background-color: transparent !important;
+    color: #000 !important;
+}
+
+.badge{
+    position: absolute;
+    top: 10px;
+}
+/* Header Responsive  */
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (max-width: 576px)  {
+    .register{
+        background-color: black !important;
+        text-align: center;
+    }
+    .login{
+        background-color: transparent !important;
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 577px) and (max-width:768px) { 
+    .register{
+        text-align: center;
+    }
+ }
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 769px) and (max-width:992px) { 
+    .register{
+        text-align: center;
+    }
+ }
+
+
+ 
+ 
+/* Small devices (landscape phones, 576px and up)*/
+ /* @media (max-width: 576px)  { } */
+ 
+ /* Medium devices (tablets, 768px and up) */
+/* @media (min-width: 577px) and (max-width:768px) {} */
+ 
+ /* Large devices (desktops, 992px and up) */
+/* @media (min-width: 769px) and (max-width:992px) { } */
+ 
