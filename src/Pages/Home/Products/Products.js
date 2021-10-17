@@ -14,7 +14,7 @@ const Products = () => {
   const Dinners = products.filter((product) => product.category === "Dinner");
 
   return (
-    <ProductContext>
+   
       <Container>
         <Row className="pt-5">
           <Col className="col-12">
@@ -52,7 +52,6 @@ const Products = () => {
         
       </Row> */}
       </Container>
-    </ProductContext>
   );
 };
 
